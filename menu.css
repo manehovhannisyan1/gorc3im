@@ -1,0 +1,30 @@
+.menu {
+  background: rgb(108, 2, 2);
+}
+.menu .menu_blok {
+  width: 1000px;
+  height: auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: auto !important;
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+}
+.menu .menu_blok .vernagir {
+  font-size: 25px;
+  padding: 30px 0;
+}
+.menu .menu_blok .himn {
+  width: 500px;
+  margin: auto;
+}
+.menu .menu_blok .himn h2 {
+  text-align: left;
+  padding-bottom: 5px;
+}
+.menu .menu_blok .himn i {
+  display: block;
+  text-align: left;
+  padding-bottom: 20px;
+  color: rgb(212, 12, 12);
+}
