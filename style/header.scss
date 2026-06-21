@@ -1,0 +1,44 @@
+header {
+
+    width: 100%;
+    background: rgb(251, 246, 242);
+    height: auto;
+    position: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 10000 !important;
+    
+    box-shadow: 0 0 5px 0.5px;
+
+    .box {
+
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            text-align: center;
+            height: 60px;
+            margin: 0;
+            padding-left: 0;
+
+            li {
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    padding: 6px 10px;
+                    font-size: 20px;
+                    color: black;
+
+
+                    &:hover {
+                        text-shadow: 0 0 5px rgba(221, 0, 0, 0.439);
+                    }
+                }
+            }
+        }
+    }
+
+    
+
+}
